@@ -4,7 +4,7 @@
 
 run alien_invasion.py to play the game
 
-## Modules/Packages Required:
+#### Modules/Packages Required:
     1: Pygame
     2: sys
     3: time
