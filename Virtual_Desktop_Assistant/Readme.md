@@ -5,6 +5,7 @@
 #### Modules:
 pyttsx3, SpeechRecognition, os, datetime, wikipedia, random, requests, webbrowser, json, smtplib
 
+#### Intro:
 The objective was to interact with computer and make it perform basic day to day task only using voice commands.
 
 Project involves Google speech recognition library, webbrowser module, Wikipedia API Beautiful-soup module, OS module etc.
@@ -21,7 +22,7 @@ Future Scope is to integrate OPENCV to the assistant, and perform operations lik
 
 Project is still under development
 
-# Note:
+#### Note:
     1: Add shorcut links of the applications/softwares that are to be called in the locations folder.
     2: Add email details of 'Sender' in email_details.json file
 
