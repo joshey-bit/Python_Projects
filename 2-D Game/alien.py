@@ -12,7 +12,7 @@ class Alien(Sprite):
         self.screen = screen
 
         #load the alien image and get the resctangle
-        self.image = pygame.image.load(r'images\alien.bmp').convert()
+        self.image = pygame.image.load(r'images/alien.bmp').convert()
         self.image.set_colorkey((255,255,255)) #to match image background with screen background
         self.img = pygame.transform.scale(self.image,(40,35))
         self.rect = self.img.get_rect() #to get the rectangle of image
