@@ -12,7 +12,7 @@ class Ship(Sprite):
         self.alien_settings = alien_settings
 
         '''load ship image and get its rectangle'''
-        self.image = pygame.image.load('images\ship2.bmp').convert()
+        self.image = pygame.image.load('images/ship2.bmp').convert()
         self.image.set_colorkey((255, 255, 255))  # to change white background of image to screen background
         self.image = pygame.transform.scale(self.image,(80,50)) # to scale the image to correct pixel size
         self.rect = self.image.get_rect()  #getting rectangle of image
