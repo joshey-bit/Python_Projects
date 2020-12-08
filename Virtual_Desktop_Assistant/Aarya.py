@@ -79,7 +79,7 @@ def take_command():
 #a function for softwares in locations directory
 def software(query):
 	global soft_directory
-	soft_directory = 'E:\\aarya\\programms\\python\\crash_course\\Jarvis_project\\locations'
+	soft_directory = 'locations/'
 	programs = os.listdir(soft_directory) 
 	# print(programs)
 
@@ -102,8 +102,7 @@ def software(query):
 #function to create dictionary of contacts id according to their name
 def contacts(name):
 	contact_dictionary = {
-	        'rahul': 'rahuljoshey187@gmail.com',
-	        'rohit': 'rubidiumjoshi1999@gmail.com',
+	        'reciver_name': 'reciever email id'
 	}
 
 	#check if name exsists in contacts dictionary
@@ -218,7 +217,7 @@ if __name__ == '__main__':
 
 		# to open system programs
 		elif 'play music' in query:
-			music_dir = 'D:\\memory card\\Received'
+			music_dir = 'Audio/'
 			songs = os.listdir(music_dir)
 			# print(songs)
 			song_number = random.randint(0, (len(songs)-1))
