@@ -14,8 +14,8 @@ The tasks performed by the virtual assistant are:
         -- opening web browser & searching for specific topic in google or YouTube,
         -- Wikipedia summary on specific topic,
         -- sending voice Email,
-        -- Reading news headings. ##### (still underdevelopment)
-        -- performing math calculations (product, percentages, interests, HCF, etc) ##### {still under development}
+        -- Reading news headings.(still underdevelopment)
+        -- performing math calculations (product, percentages, interests, HCF, etc) (still under development)
         -- opening a specific software, playing music, greeting user based on time etc.
     
 
